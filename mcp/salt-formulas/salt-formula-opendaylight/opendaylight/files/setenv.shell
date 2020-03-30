@@ -7,6 +7,7 @@
 ##############################################################################
 {%- from "opendaylight/map.jinja" import server with context -%}
 # export JAVA_HOME # Location of Java installation
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export JAVA_MIN_MEM={{ server.java_min_mem }} # Minimum memory for the JVM
 export JAVA_MAX_MEM={{ server.java_max_mem }} # Maximum memory for the JVM
 # export JAVA_PERM_MEM # Minimum perm memory for the JVM
