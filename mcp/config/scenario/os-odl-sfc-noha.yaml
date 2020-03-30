@@ -29,7 +29,7 @@ virtual:
     vcpus: 2
     ram: 2048
   odl01:
-    ram: 6144
+    ram: 8192
   cmp001:
     disks: 100G;100G
   cmp002:
