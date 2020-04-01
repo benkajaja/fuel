@@ -486,7 +486,7 @@ function start_containers {
 
 function check_connection {
   local total_attempts=60
-  local sleep_time=5
+  local sleep_time=20
 
   set +e
   echo '[INFO] Attempting to get into Salt master ...'
